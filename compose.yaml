@@ -1,0 +1,13 @@
+services:
+  web:
+    build: .
+    environment:
+      - UDEV=1
+    devices:
+      - '/dev:/dev'
+    ports: 
+      - "13252:13252"
+    volumes:
+      - /volumes/
+    privileged: true
+    restart: always

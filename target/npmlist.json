@@ -1,0 +1,1 @@
+{"version":"1.0.0","name":"nfc-server","dependencies":{"babel-node":{"version":"0.0.1-security"},"cors":{"version":"2.8.5"},"express":{"version":"4.18.2"},"nfc-pcsc":{"version":"0.8.1"},"node-gyp":{"version":"9.4.0"}}}
